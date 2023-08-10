@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Pacifico&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap');
+
+body {
+  /* font-family: 'Cairo', sans-serif;
+  font-family: 'Poppins', sans-serif; */
+  font-family: 'Roboto', sans-serif;
+}
+ 
+.section-hedar{
+  margin-top: 6.5% !important;
+
+}
+ 
+
+
+
+.product {
+  /* padding: 5rem 0; */
+
+}
+
+.product .containerx {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+
+}
+
+.product .containerx .images-product {
+  display: flex;
+  gap: 20px;
+}
+
+.product .containerx .images-product .images-sm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product .containerx .images-product .images-sm img {
+  width: 70px;
+  aspect-ratio: 1;
+  cursor: pointer;
+}
+
+.product .containerx .images-product .images-lg img {
+  width: 500px;
+  aspect-ratio: 1;
+}
+
+
+
+.color{
+  width: 40px;
+  aspect-ratio: 1;
+  border: solid 10px rgba(214, 214, 214, 0.849);
+   
+}
+
+  .WC{
+  background-color: #FFE3B7;
+}
+
+.BC{
+  background-color: blue;
+}
+
+@media (max-width : 992px) {
+   
+  .product{
+    width: 100%;
+   
+  }
+  .product .containerx {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+
+  .product .containerx .images-product {
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+  }
+
+  .product .containerx .images-product .images-sm {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    /* gap: 0;
+    position: absolute; 
+    z-index:6;
+    bottom:  5%; */
+     background-color: rgb(255, 255, 255);
+      
+  }
+
+  .product .containerx .images-product .images-lg img {
+    width: 100%;
+    height: 400px;
+  }
+
+     .product .containerx .images-product .images-sm img {
+      /* position: static;
+      z-index: 0;
+      object-fit:  cover;
+      object-position: top;
+        height: 5px; 
+       width: 100px;
+      */
+      } 
+        
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:992px) {}
